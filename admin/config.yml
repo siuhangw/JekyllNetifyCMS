@@ -1,3 +1,13 @@
 backend:
-  name: git-gateway
-  branch: master # Branch to update (optional; defaults to master)
+  name: github
+  repo: siuhangw/JekyllNetifyCMS
+
+media_folder: "images/uploads"
+
+collections:
+  name: "website-settings"
+  label: "Website Setting"
+  files:
+    label: "Website settings"
+    name: "site"
+    file: "_data/site.yml"
