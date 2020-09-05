@@ -12,6 +12,4 @@ collections:
       name: "site"
       file: "_data/site.yml"
       fields: 
-        - label: "Tel"
-          name: "tel"
-          widgets: "string"
+        - {label: "Tel", name: "tel", widgets: "string"}
